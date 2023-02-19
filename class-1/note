@@ -5,5 +5,5 @@ git commit -m "comments"
 git push --set-upstream origin class-1
 
 PS1="%n$ "
-
+PS1="~ $: ";clear;
 
