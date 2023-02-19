@@ -10,13 +10,15 @@ search_fave_phrase = text_phrase.find("w", 3, 8)
 search_fave_phrase2 = text_phrase.find("d")
 search_index = text_phrase.index("o")
 
-print(search_fave_phrase)
-print(search_fave_phrase2)
-print(search_index)
+print('text_phrase.find("w", 3, 8): ', search_fave_phrase)
+print('text_phrase.find("d") :', search_fave_phrase2)
+print('text_phrase.index("o") :', search_index)
 
+print("------11111")
 search_in =  "a" in "Hello world!"
 print("a" in "Hello world!")
 print(search_in)
+print("------2222")
 """
 find string in the line
 """
