@@ -5,5 +5,10 @@ fFile = "newslines.txt"
 
 fPath = os.path.join(fDir, fFile)
 
+print(fPath)
+
 with open(fPath, 'r') as reader:
-    print(reader.read())
+    line = reader.readline()
+    while line != '':
+        print(line, end='')
+        line = reader.readline()
