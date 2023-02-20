@@ -7,3 +7,5 @@ Cavalier King Charles Spaniel
 Golden Retriever
 West Highland White Terrier
 Border TerrierBoxer
+
+Beagle
