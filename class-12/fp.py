@@ -70,3 +70,7 @@ def search_string5(dicrectory, search_string, extension):
                     print()
 
 search_string5(dirpath, 'test', 'py')
+"""
+appa asked chicken amma 
+send e-chicken
+"""
