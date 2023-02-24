@@ -28,5 +28,5 @@ def search_string3(directory, search_string,extension):
                     print(f'Line number:{i + 1}; Content: {line}'.strip())
                     print()
 
-search_string3(dirpath, 'index', 'py')
+search_string3(dirpath, 'test', 'py')
 
