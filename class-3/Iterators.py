@@ -1,4 +1,3 @@
-
 mytuple = ("apple", "Banana", "cherry")
 
 myit = iter(mytuple)
@@ -17,6 +16,8 @@ for i, name in enumerate(mytuple):
 
 """
 """
+
+
 class MyNumber:
     def __iter__(self):
         self.a = 1
@@ -29,6 +30,7 @@ class MyNumber:
             return x
         else:
             raise StopIteration
+
 
 myclass = MyNumber()
 myiter = iter(myclass)

@@ -8,22 +8,24 @@ def search_file(file_name):
         content = file.read()
         print(content)
 
+
 def search_file_2(file_name, search_string):
     with open(file_name, 'r') as file:
         for i, name in enumerate(file):
             i += 1
-            print(f'Line Number {i}:', name,end='')
+            print(f'Line Number {i}:', name, end='')
+
 
 # search_file(file_name)
 # search_file_2(file_name,'test')
 
 def search_file_3(file_name, search_string):
     with open(file_name, 'r') as files:
-        file= files.readlines()
+        file = files.readlines()
         for name in file:
             if name.find(search_string) != -1:
                 print(search_string, 'string exists in file')
-                print('Line Number: ', file.index(name)+1)
+                print('Line Number: ', file.index(name) + 1)
                 print('File Content: ', name, end='')
                 print()
 
@@ -37,6 +39,7 @@ index
 
 """
 
+
 def search_file_4(file_name, search_name):
     with open(file_name, 'r') as files:
         file = files.readlines()
@@ -47,10 +50,10 @@ def search_file_4(file_name, search_name):
                 print('Line Number: ', file.index())
                 print(line)
 
+
 # search_file_4(file_name, 'test')
 
 words = ['test']
-
 
 with open(file_name, 'r') as f:
     content = f.readlines()

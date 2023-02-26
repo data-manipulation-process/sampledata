@@ -36,4 +36,3 @@ my_list.extend([25, 50, 75])
 print(my_list)
 
 print()
-

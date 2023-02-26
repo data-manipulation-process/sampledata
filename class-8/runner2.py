@@ -28,7 +28,6 @@ with open(filename, 'w') as csv_file:
     writer.writeheader()
     writer.writerows(mydict)
 
-
 with open(filename, 'r') as csv_files:
     for i, name in enumerate(csv_files):
         print(i, name, end='')

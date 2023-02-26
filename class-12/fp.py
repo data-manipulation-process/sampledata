@@ -65,9 +65,10 @@ def search_string5(dicrectory, search_string, extension):
             for line, name in enumerate(content):
                 if re.search(search_string, name):
                     print(file)
-                    print('Line Number:',line, name,end='')
-                    print(f'index' , name.index(search_string))
+                    print('Line Number:', line, name, end='')
+                    print(f'index', name.index(search_string))
                     print()
+
 
 search_string5(dirpath, 'test', 'py')
 """

@@ -15,7 +15,7 @@ print('text_phrase.find("d") :', search_fave_phrase2)
 print('text_phrase.index("o") :', search_index)
 
 print("------11111")
-search_in =  "a" in "Hello world!"
+search_in = "a" in "Hello world!"
 print("a" in "Hello world!")
 print(search_in)
 print("------2222")
@@ -53,4 +53,3 @@ quote2 = 'Dosmall things with great smalllove'
 
 k1 = quote2.rfind('small', 2, 40)
 print(k1)
-

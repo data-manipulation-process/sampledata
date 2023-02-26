@@ -1,5 +1,6 @@
 import os
 from Pngreader import PngReader
+
 #
 # imgName = "/Users/developer1/workspace/sampledata/class-6/img.png"
 #
@@ -14,9 +15,8 @@ fFile = "newslines.txt"
 
 fPath = os.path.join(fDir, fFile)
 
-with open (fPath, 'r') as reader:
+with open(fPath, 'r') as reader:
     reader.read()
 
-with open (fPath, 'a') as writer:
+with open(fPath, 'a') as writer:
     print(writer.write('\n\nBeagle\n'))
-

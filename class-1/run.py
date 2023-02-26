@@ -1,6 +1,5 @@
 import os
 
-from common import common
 from common.common import fRootPath, fFolder, fFileName, create_dir
 
 pFolder = os.path.join(fRootPath, fFolder)
@@ -18,4 +17,4 @@ with open(pFile, 'a+') as f:
 
 with open(pFile, 'r') as f:
     for i, lines in enumerate(f):
-        print(f'Line: {i+1}, content: {lines}'.strip())
+        print(f'Line: {i + 1}, content: {lines}'.strip())

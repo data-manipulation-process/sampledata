@@ -1,4 +1,3 @@
-
 """
 find - Start  and end arguments
 rindex - last occurance

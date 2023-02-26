@@ -1,7 +1,6 @@
 import os
 from pydoc import text
 
-
 import os
 
 user_input = input('What is the name of your directory')
@@ -21,7 +20,6 @@ for fname in directory:
         else:
             print('string not found')
         f.close()
-
 
 path = '/Users/developer1/workspace/sampledata'
 # searchText(path)

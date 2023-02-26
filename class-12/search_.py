@@ -2,6 +2,8 @@ import os
 import glob
 
 rootdir = '/Users/developer1/workspace/sampledata'
+
+
 #
 
 
@@ -16,5 +18,5 @@ def search_string(root, word):
                     print('Line Number:', lines.index(line))
                     print('Line:', line)
 
-search_string(rootdir, 'test')
 
+search_string(rootdir, 'test')

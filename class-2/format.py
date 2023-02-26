@@ -1,4 +1,3 @@
-
 content = 'Hello {}, your balance is {}.'
 content2 = 'Hello {0}, your balance is {1}.'
 content3 = 'Hello {name}, your balance is {blc}.'
@@ -20,9 +19,9 @@ content7 = 'this is fun, this is fun, this is fun, this is fun, this is fun'
 
 print(content7.find('this'))
 print(content7.rfind('this'))
-print(content7.find('this', 5,30))
-print(content7.rfind('this', 5,-12))
-print(content7.rfind('this', 5,-1))
+print(content7.find('this', 5, 30))
+print(content7.rfind('this', 5, -12))
+print(content7.rfind('this', 5, -1))
 
 content8 = 'Hello {}, your balalnce is {}'
 print(content8.format("Jagan", 9000))

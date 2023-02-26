@@ -1,5 +1,3 @@
-
-
 fruits = ["apple", "banana", "cherry"]
 
 print(fruits[1])
@@ -12,7 +10,7 @@ fruits.append("orange")
 
 print(fruits)
 
-fruits.insert(1,"lemon")
+fruits.insert(1, "lemon")
 
 print(fruits)
 
@@ -25,5 +23,3 @@ print(fruits[-1])
 print(fruits[2:5])
 
 print(len(fruits))
-
-

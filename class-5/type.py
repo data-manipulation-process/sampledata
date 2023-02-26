@@ -1,5 +1,3 @@
-
-
 x = 5
 
 print(type(x))
@@ -20,7 +18,7 @@ B = ("apple", "banana", "cherry")
 
 print(type(B))
 
-c = {"name" : "John", "age" : 36 }
+c = {"name": "John", "age": 36}
 print(type(c))
 
 D = True

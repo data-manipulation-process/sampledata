@@ -5,7 +5,6 @@ if "apple" in fruits:
 else:
     print("Yes, not is a fruit")
 
-
 fruits.add("orange")
 
 print(fruits)

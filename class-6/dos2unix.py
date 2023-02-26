@@ -1,7 +1,6 @@
 import argparse
 import os
 
-
 sampledata = """\n
 
 Pug
@@ -20,12 +19,13 @@ fFile = "newslines.txt"
 
 fPath = os.path.join(fDir, fFile)
 
-
 source_file = fPath
+
 
 def str2unix(input_str: str) -> str:
     r_str = input_str.replace('\r\n', '\n')
     return r_str
+
 
 def dos2unix(source_file: str, dest_file: str):
     with open(source_file, 'r') as reader:
@@ -35,6 +35,7 @@ def dos2unix(source_file: str, dest_file: str):
 
     with open(dest_file, 'w') as writer:
         writer.write(unix_content)
+
 
 if __name__ == "__main__":
     # Create our Argument parser and set its description

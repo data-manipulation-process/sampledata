@@ -1,4 +1,4 @@
-frutis = [ "apple", "banana", "cherrry"]
+frutis = ["apple", "banana", "cherrry"]
 
 for x in frutis:
     print(x)

@@ -4,7 +4,7 @@ import time;
 localtime = time.asctime(time.localtime(time.time()))
 # print ("Local current time :", localtime)
 
-#!/usr/bin/python
+# !/usr/bin/python
 import calendar
 
 cal = calendar.month(2023, 2)

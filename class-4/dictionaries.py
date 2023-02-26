@@ -1,9 +1,8 @@
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
+car = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964
 }
-
 
 print(car.get("model"))
 
@@ -17,7 +16,6 @@ print(car)
 
 print("3333333333")
 car.clear()
-
 
 """
 pop - to remove the element 

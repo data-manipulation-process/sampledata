@@ -1,7 +1,7 @@
 i = 1
 while i < 6:
     print(i)
-    i +=1
+    i += 1
 
 #
 print("11111111")
@@ -26,9 +26,8 @@ print("33333")
 i = 0
 while i < 6:
     print(i)
-    i +=1
+    i += 1
 else:
     print("i is no longer less than 6")
 
 print("44444")
-

@@ -34,7 +34,6 @@ with open(fPath, 'w') as writer:
             writer.write(line)
             print(line, end='')
 
-
 # with open(fPath, 'r') as reader:
 #     for line in reader:
 #         if not line.isspace():

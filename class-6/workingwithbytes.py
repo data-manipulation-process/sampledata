@@ -15,7 +15,7 @@ print(fPath)
 #         if not line.isspace():
 #             writer.write(line)
 #             print(line, end='')
-with open (fPath, 'rb') as reader:
+with open(fPath, 'rb') as reader:
     print(reader.read(10))
     print(reader.read(3))
     print(reader.read(2))

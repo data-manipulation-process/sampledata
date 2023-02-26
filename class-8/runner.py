@@ -39,4 +39,3 @@ with open(filename, 'r') as f:
     for i, lines in enumerate(f):
         i += 1
         print(i, lines, end='')
-

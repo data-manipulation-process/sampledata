@@ -1,6 +1,5 @@
 import os
 
-
 try:
     fn = open("text.txt", 'r')
     fn.write("This is my test file for exception handling!!!")
